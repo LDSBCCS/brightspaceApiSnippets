@@ -1,4 +1,4 @@
-// whoami snipet allows you to retrieve your first name and last name. also will log throught jQuery the data is retrieving
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
  <p id="userFullName"></p>
  <script>// <![CDATA[
