@@ -1,0 +1,124 @@
+#wrap > .container {
+    padding: 60px 15px 0;
+}
+h1 {
+    color: #65C3A5;
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    display: block;
+    margin-bottom: 28px;
+    line-height: 39px;
+    text-align: left;
+    margin-left: 4%;
+}
+h2 {
+    color: #858585;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+p {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.btn-info {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+/*container*/
+
+.container .credit {
+    margin: 20px 0;
+}
+.jumbotron {
+    background: url("/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/graphicTemplate/images/ENG220-U11600.png") no-repeat center center;
+    background-size: cover;
+}
+#img-begin {
+    position: relative;
+    top: 31px;
+}
+#main-img {
+    width: 100%;
+}
+/* Media Queries*/
+
+@media(min-width: 300px) {
+    #img-begin {
+        margin-bottom: 11%
+    }
+}
+@media(min-width: 450px) {
+    #img-begin {
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 513px) {
+    #img-begin {
+        margin-bottom: 3%;
+    }
+}
+@media (min-width: 664px) {
+    #img-begin {
+        margin-bottom: 4%;
+    }
+}
+@media (min-width: 768px) {
+    .container-bar {
+        width: 865px;
+    }
+}
+@media(min-width: 800px) {
+    #title {
+        margin-right: 0px;
+        margin-left: 7%;
+    }
+    #title:before {
+        content: "Course title";
+        font-size: large;
+    }
+    .navbar-nav {
+        float: right;
+    }
+}
+@media (min-width: 992px) {
+    .container-bar {
+        width: 970px
+    }
+}
+@media (min-width: 1200px) {
+    .container-bar {
+        width: 1170px
+    }
+    #main-img {
+        width: 100%;
+    }
+    .container-fluid {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+.btn {
+    letter-spacing: 2px;
+}

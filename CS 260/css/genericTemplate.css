@@ -1,0 +1,204 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    
+    margin: 0 auto;
+    /* Pad bottom by footer height */
+    
+    overflow: hidden;
+}
+#wrap;
+.container {
+    padding: 60px 15px 0;
+}
+h1 {
+    color: #65C3A5;
+    font-family: 'Roboto Slab', serif;
+    font-size: 33px;
+    font-weight: 300;
+    letter-spacing: -1px;
+    display: block;
+    margin-bottom: 28px;
+    line-height: 39px;
+    text-align: left;
+    margin-left: 4%;
+}
+h2 {
+    color: #858585;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    display: block;
+    line-height: 27px;
+    margin-bottom: 24px;
+}
+p {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    margin-bottom: 20px;
+}
+.btn-info {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #FFF;
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 36px;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+/*NavBar style code*/
+
+.nav {
+    font-family: 'Open Sans', sans-serif;
+}
+.container-bar {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+/*container*/
+
+.container .credit {
+    margin: 20px 0;
+}
+.jumbotron {
+    background: url("/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/graphicTemplate/images/ENG220-U11600.png") no-repeat center center;
+    background-size: cover;
+}
+/*@media screen and (min-width:768px){.jumbotron{height: 410px;} }*/
+
+#img-begin {
+    position: relative;
+    top: 31px;
+}
+#main-img {
+    width: 100%;
+}
+/*bootom navbar*/
+
+.carousel-control {
+    width: 7%;
+}
+#nav-btm {
+    width: 100%;
+    height: 50px;
+    background-color: #BFD2D1;
+    padding-top: .6%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+/* Set the fixed height of the footer here */
+/*-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+footer {
+    background-image: url("https://ldsbctest.brightspace.com/content/img/footerbg.jpg");
+    background-size: cover;
+}
+footer;
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-links {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-links:hover {
+    text-decoration: none;
+    color: #969798;
+    font-weight: bold;
+}
+.footer-rows {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.col-sm-4 {
+    margin-bottom: 10%;
+}
+/* Media Queries*/
+
+@media(min-width: 300px) {
+    #img-begin {
+        margin-bottom: 9%;
+    }
+    .navbar-header:before {
+        width: 100%;
+    }
+    #img-begin {
+        margin-bottom: 11%;
+    }
+}
+@media(min-width: 450px) {
+    
+    #img-begin {
+        margin-bottom: 5%;
+    }
+}
+@media (min-width: 513px) {
+    #img-begin {
+        margin-bottom: 3%;
+    }
+}
+@media (min-width: 664px) {
+    .navbar-header {
+        width: 77%;
+    }
+    #img-begin {
+        margin-bottom: 4%;
+    }
+}
+@media (min-width: 768px) {
+    .container-bar {
+        width: 865px;
+    }
+    .navbar-header {
+        width: 77%;
+    }
+}
+@media(min-width: 800px) {
+    .navbar-nav {
+        float: right;
+    }
+}
+@media (min-width: 992px) {
+    .container-bar {
+        width: 970px
+    }
+}
+@media (min-width: 1200px) {
+    .container-bar {
+        width: 1170px
+    }
+    #main-img {
+        width: 100%;
+    }
+    .container-fluid {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+.btn {
+    letter-spacing: 2px;
+}

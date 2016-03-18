@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>
+        Discussion Topic Title
+    </title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" type="text/css">
+    <style>
+        .iframe-wrapper iframe {
+            width: 100%;
+            height: 100%;
+            overflow-y: no-scroll;
+            border: 0px;
+        }
+        #discussion-feed-toggle {
+            top: 15px;
+        }
+        .inline-discussion-container {
+            min-height: 600px;
+        }
+        .SI_IMG_LEFT .SI_Image {
+            height: 550px !important;
+        }
+    </style>
+    <!-- What I added from PSD template -->
+    <link rel="stylesheet" href="/content/css/reset.css">
+    <link rel="stylesheet" href="/content/css/main.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- END of What I added from PSD template -->
+</head>
+
+<body class="inline-discussion-body" style="height: 100%">
+<p></p>
+<!-- Start Container -->
+<div class="container-fluid inline-discussion-container"><!-- Discussion Feed (right-hand flyout menu) -->
+<p><a id="discussion-feed-toggle" href="#" class="menu-toggle btn btn-default toggle" title="Open Discussion Feed"><span class="lds-icons lds-icons-comment">&nbsp;</span></a></p>
+<div id="discussion-feed-wrapper" class="discussion-feed-wrapper">
+<div class="discussion-feed-container">
+<h3 class="discussion-feed-title">Discussion Feed<a id="discussion-feed-close" href="#" class="discussion-feed-close btn pull-right toggle" title="Close Discussion Feed"> <span class="lds-icons lds-icons-close">&nbsp;</span></a></h3>
+<div class="discussion-flyout-spinner"><img src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/img/loading.gif" alt="Loading" class="overlay-loading-img" /></div>
+<div class="discussion-feed-posts"></div>
+</div>
+</div>
+<div class="SI_TEMPLATE_FULL">
+<div class="SI_IMG_RIGHT">
+<div class="SI_Text">
+<h1><!--*************************** Insert title here *****************************--> Your Page Title Here <!--***************************************************************************--></h1>
+<!--****************************** Insert content here ********************************--> <!--iframe src="customContent/#-##/story.html"></iframe-->
+<p>Place your page content in this space provided. If you are including content via an iframe you may delete this content and uncomment the &lt;iframe&gt; tags within the HTML and link the iframe to your content.</p>
+<!--***********************************************************************************--></div>
+<div class="SI_Image"><img src="/source/img/img-1.jpg" alt="" /></div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12" style="margin-top: 15px;"><!-- Button trigger modal --> <button class="btn btn-primary btn-reply-topic" data-toggle="modal" data-target="#modal_reply_topic">Post A Comment</button> <!-- Reply to Topic Modal -->
+<div class="modal fade" id="modal_reply_topic" tabindex="-1" role="dialog" aria-labelledby="modal_reply_topic_label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-center">
+<div class="modal-content">
+<div class="modal-header"><button type="button" class="close btn-close" data-dismiss="modal" aria-hidden="true"> <span class="lds-icons lds-icons-close">&nbsp;</span> </button>
+<h2 class="modal-title">Post A Comment</h2>
+</div>
+<div class="modal-body">
+<div class="video-controls video-controls-desktop visible" id="video_flash_topic"></div>
+<div class="video-controls video-controls-mobile hidden">
+<p><i>Note: Standard data charges will apply on mobile networks</i></p>
+<form action="https://aue1-d2l-prod-lds-bundles.s3.amazonaws.com/" method="post" enctype="multipart/form-data" id="mobile_video_upload_topic"><input type="hidden" name="AWSAccessKeyId" id="mobile_video_upload_key" value="AKIAJORKRPQ7BSAI4SFQ" /> <input type="hidden" name="key" value="" /> <input type="hidden" name="success_action_redirect" value="" /> <input type="hidden" name="acl" value="private" /> <input type="hidden" name="policy" value="" /> <input type="hidden" name="signature" value="" /> <span class="btn btn-primary btn-file"> Record Video<input type="file" name="file" accept="video/*" class="file-upload-btn vidFile" /> </span> <span class="video-file-size hidden"></span> <input type="hidden" name="org" value="lds" /></form></div>
+<p>Write any notes or comments in this section (maximum of 500 characters). When recording video, please ensure that the video is at least 15 seconds in duration.</p>
+<textarea maxlength="500" class="reply-topic-text"></textarea>
+<div class="clearfix"></div>
+<button class="btn btn-primary btn-reply-topic-submit" data-toggle="modal" data-target="#modal_reply_topic">Post Reply</button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
+<div class="participation-reqd-cont hidden"><label class="participation-reqd-label"> <input type="checkbox" class="participation-reqd-input" /> Learner Participation Required</label></div>
+</div>
+</div>
+<div class="row">
+<div class="inline-discussion-posts"></div>
+</div>
+<div class="row"><!-- Reply to Post Modal -->
+<div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
+<div class="modal fade" id="modal_reply_post" tabindex="-1" role="dialog" aria-labelledby="modal_reply_post_label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-center">
+<div class="modal-content">
+<div class="modal-header"><button type="button" class="close btn-close" data-dismiss="modal" aria-hidden="true"> <span class="lds-icons lds-icons-close">&nbsp;</span> </button>
+<h2 class="green">Reply to this Post</h2>
+</div>
+<div class="modal-body">
+<div class="video-controls video-controls-desktop visible" id="video_flash_post"></div>
+<div class="video-controls video-controls-mobile hidden">
+<p><i>Note: Standard data charges will apply on mobile networks</i></p>
+<form action="" method="post" enctype="multipart/form-data" id="mobile_video_upload_post"><input type="hidden" name="AWSAccessKeyId" id="mobile_video_upload_key" value="" /> <input type="hidden" name="key" value="" /> <input type="hidden" name="success_action_redirect" value="" /> <input type="hidden" name="acl" value="private" /> <input type="hidden" name="policy" value="" /> <input type="hidden" name="signature" value="" /> <span class="btn btn-primary btn-file"> Record Video<input type="file" name="file" accept="video/*" class="file-upload-btn vidFile" /> </span> <span class="video-file-size hidden"></span> <input type="hidden" name="org" value="lds" /></form></div>
+<p>Write any notes or comments in this section (maximum of 500 characters). When recording video, please ensure that the video is at least 15 seconds in duration.</p>
+<textarea maxlength="500" class="reply-post-text"></textarea>
+<div class="clearfix"></div>
+<button class="btn btn-primary btn-reply-post-submit" data-toggle="modal" data-target="#modal_reply_post">Post Reply</button></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><!-- Diagnostic Modal -->
+<div class="col-xs-12 col-sm-12 col-sm-12 col-lg-12">
+<div class="modal fade" id="modal_diagnostic" tabindex="-1" role="dialog" aria-labelledby="modal_diagnostic_label" aria-hidden="true">
+<div class="modal-dialog modal-dialog-center">
+<div class="modal-content">
+<div class="modal-header"><button type="button" class="close btn-close btn-close-diagnostic" data-dismiss="modal" aria-hidden="true"> <span class="lds-icons lds-icons-close">&nbsp;</span> </button>
+<h2 class="green">Diagnostics</h2>
+</div>
+<div class="modal-body">
+<div class="modal-diagnostic-message"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="inline_discussion_overlay" class="hidden"><span class="overlay-loading"></span><img src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/img/loading.gif" alt="Loading" class="overlay-loading-img" /></div>
+</div>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script>// <![CDATA[
+window.jQuery || document.write('<script src="/shared/Inline_Discussions_Support/v.1.1/js/vendor/jquery-1.11.1.min.js"><\/script>')
+// ]]></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/js/valence/lib/valence.js"></script>
+<script src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/js/valence/lib/sha.js"></script>
+<script src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/js/_params_prod.js"></script>
+<script src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/js/main.js"></script>
+<script src="https://learn.lds.org/shared/Inline_Discussions_Support/v.1.1/flashVideoRecorder/swfobject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+<script src="https://sadmin.brightcove.com/js/BrightcoveExperiences.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.3/jquery-ui.min.js"></script>
+<script src="/content/js/text_image_right.js"></script>
+</body>
+
+</html>

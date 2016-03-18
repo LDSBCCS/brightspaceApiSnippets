@@ -1,0 +1,161 @@
+html,
+body {
+    height: 100%;
+    /* The html and body elements cannot have any padding or margin. */
+}
+/* Wrapper for page content to push down footer */
+
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by its height */
+    
+    margin: 0 auto;
+    /* Pad bottom by footer height */
+    
+    overflow: hidden;
+}
+#title {
+    color: #777;
+    height: 50px;
+    padding: 15px 15px;
+    line-height: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+/*NavBar style code*/
+
+.nav {
+    font-family: 'Open Sans', sans-serif;
+}
+.container-bar {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-left: auto;
+}
+.dropdown-menu:active > a,
+.dropdown-menu.active a:focus,
+.dropdown-menu>.active> a:hover {
+    color: #1F1D1D;
+    text-decoration: none;
+    background-color: #E7E7E7;
+    outline: 0;
+    font-weight: bold;
+}
+.carousel-control {
+    width: 7%;
+}
+#nav-btm {
+    width: 100%;
+    height: 50px;
+    background-color: #BFD2D1;
+    padding-top: .6%;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+footer {
+    background-image: url("https://ldsbctest.brightspace.com/content/img/footerbg.jpg");
+    background-size: cover;
+}
+footer > .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.footer-links {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer-links:hover {
+    text-decoration: none;
+    color: #969798;
+    font-weight: bold;
+}
+.footer-rows {
+    margin-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.col-sm-4 {
+    margin-bottom: 10%;
+}
+/* Media Queries*/
+
+@media(min-width: 300px) {
+    #title:before {
+        content: "COURSE TITLE";
+        font-size: small;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 210px;
+    }
+    .navbar-header:before {
+        width: 100%;
+    }
+}
+@media (min-width: 664px) {
+    .dropdown-menu {
+        position: absolute;
+        top: 100%;
+        left: -96px;
+        z-index: 1000;
+        display: none;
+        float: left;
+        min-width: 160px;
+        padding: 5px 0;
+        margin: 2px 0 0;
+        font-size: 14px;
+    }
+    #title:before {
+        content: "COURSE TITLE";
+        font-size: large;
+    }
+    #title {
+        width: 100%;
+    }
+    .navbar-header {
+        width: 100%;
+    }
+}
+@media (min-width: 768px) {
+    .container-bar {
+        width: 865px;
+    }
+    .navbar-header {
+        width: 56%;
+    }
+}
+@media(min-width: 800px) {
+    #title {
+        margin-right: 0px;
+        margin-left: 7%;
+    }
+    #title:before {
+        content: "Course title";
+        font-size: large;
+    }
+}
+@media(min-width: 826px) {
+    .navbar-nav {
+        float: right;
+    }
+    .navbar-header {
+        width: 64%;
+    }
+}
+@media (min-width: 992px) {
+    .container-bar {
+        width: 970px
+    }
+}
+@media (min-width: 1200px) {
+    .container-bar {
+        width: 1170px
+    }
+    .container-fluid {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+.btn {
+    letter-spacing: 2px;
+}

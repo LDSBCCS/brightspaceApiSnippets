@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Header & Footer - Template</title>
+
+    <!-- Bootstrap -->
+    <!-- <link href="/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link href="/content/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/content/css/reset.css">
+    <link rel="stylesheet" href="/content/css/main.css">
+   <!--  <link rel="stylesheet" type="text/css" href="/content/css/justinTemplate.css"> -->
+
+
+    <!-- Custom CSS -->
+    <style type="text/css">
+        html, body { height: 100%; /* The html and body elements cannot have any padding or margin. */ } /* Wrapper for page content to push down footer */ #wrap { min-height: 100%; height: auto !important; height: 100%; /* Negative indent footer by its height */ margin: 0 auto ; /* Pad bottom by footer height */ overflow: hidden; } #title { color: #777; height: 50px; padding: 15px 15px; line-height: 20px; font-family: 'Open Sans', sans-serif; font-weight: 600; }
+        /*NavBar style code*/ 
+.nav{ font-family: 'Open Sans', sans-serif; } .container-bar { padding-right: 10px; padding-left: 10px; margin-left: auto;}.dropdown-menu:active > a, .dropdown-menu.active a:focus, .dropdown-menu>.active> a:hover{ color:#1F1D1D;text-decoration: none; background-color: #E7E7E7; outline: 0; font-weight: bold;}
+.carousel-control { width: 7%; } #nav-btm { width: 100%; height: 50px; background-color: #BFD2D1; padding-top: .6%; padding-left: 4%; padding-right: 4%; }
+
+footer { background-image: url("https://ldsbctest.brightspace.com/content/img/footerbg.jpg"); background-size: cover; } footer > .container { padding-left: 15px; padding-right: 15px; } .footer-links{ color: white; font-family: 'Open Sans', sans-serif; } .footer-links:hover { text-decoration: none; color: #969798; font-weight: bold; } .footer-rows{ margin-top: 10px; font-family: 'Open Sans', sans-serif; } .col-sm-4 { margin-bottom: 10%; }
+
+/* Media Queries*/ 
+@media(min-width: 300px) { #title:before { content: "COURSE TITLE"; font-size: small; padding-left: 0px; padding-right: 0px; width: 210px; }  .navbar-header:before { width: 100%; } } 
+    
+
+      @media (min-width: 664px) { .dropdown-menu{ position: absolute; top: 100%; left: -96px;
+z-index: 1000; display: none; float: left; min-width: 160px; padding: 5px 0; margin: 2px 0 0; font-size: 14px; } #title:before { content: "COURSE TITLE"; font-size: large; } #title { width: 100%; } .navbar-header{width: 68%; }  } 
+@media (min-width: 768px) { .container-bar { width: 865px; } } 
+@media(min-width: 800px) { #title { margin-right: 0px; margin-left: 7%; } #title:before { content: "Course title"; font-size: large; }.navbar-nav { float: right; } }
+ @media (min-width: 992px) { .container-bar { width: 970px } } 
+ @media (min-width: 1200px) { .container-bar { width: 1170px }  .container-fluid { padding-left: 10%; padding-right: 10%; } } .btn { letter-spacing: 2px; }
+
+
+    </style>
+
+
+
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Picturefill query-->
+    <script type="text/javascript">
+        document.createElement("picture");
+    </script>
+    <script src="https://cdn.rawgit.com/scottjehl/picturefill/3.0.0-rc1/dist/picturefill.js" async></script>
+    <!--  [if IE 9]<script src="js/matchmedio.js"></script>[endif] -->
+
+    <!-- Hoover effect -->
+    <link href="/content/enforced/6883-SMM50-SweepTheEarth(Section1-Fall2015)/Hover-master/css/hover.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+<p></p>
+<!-- Wrap all page content here -->
+<div id="wrap"><!-- Fixed navbar --><nav class="navbar navbar-default navbar-fixed-top">
+<div class="container-bar">
+<div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a class="navbar-brand" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=7373&amp;type=content&amp;rcode=LDSBC-3922"> <span class="glyphicon glyphicon-home"></span> </a>
+<div id="title" style="text-align: center;"></div>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a href="#" onclick="window.open('/d2l/common/dialogs/quickLink/quickLink.d2l?ou=7373&amp;type=content&amp;rcode=LDSBC-3795','','width=860,height=600');return false;">Documentation</a></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Templates <b class="caret"></b></a>
+<ul class="dropdown-menu" style="padding-top: 0px;">
+<li class="active"><a href="headerFooter.html" target="_parent">Header &amp; Footer</a></li>
+<li><a href="submitText.html" target="_parent">Submit Plain Text - Template</a></li>
+<li><a href="testImageLeft.html" target="_parent"> Image Left - Template</a></li>
+<li><a href="rightImage.html" target="_parent">Image Right - Template</a></li>
+<li><a href="imageRightExp.html" target="_parent">Image Right Exp - Template</a></li>
+<li><a href="Content_Video.html" target="_parent">Content Video - Template</a></li>
+<li><a href="discussionTemplate.html" target="_parent">Discussion - Template</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<!--/.nav-collapse --></div>
+</nav><!-- Begin page content --> <!-- <div id="img-begin">
+            <picture>
+                <source srcset="source/img/ENG220-U11600.png" media="(min-width: 1600px)" />
+                <source srcset="source/img/ENG220-U11200.png" media="(min-width: 800px)" /> <img id="main-img" srcset=" source/img/ENG220-U600.png " /> </picture>
+        </div> -->
+<div class="container-fluid" style="padding: 200px;"></div>
+<br /> <br /> <br /><nav id="nav-btm"><a id="left" class="footer-links hvr-grow" href="/d2l/le/content/7373/navigateContent/856/Previous?pId=23269" target="_parent" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="font-size: 26pt; color: #7f7f7f; float: left;"></span></a> <a id="right" class="footer-links hvr-grow" href="/d2l/le/content/7373/navigateContent/856/Next?pId=23269" target="_parent" style="float: right;" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="font-size: 26pt; color: #7f7f7f;"></span> </a></nav><footer>
+<div class="container">
+<div class="row footer-rows">
+<div class="col-xs-12 col-xs-3 "><a class="footer-links" href="/d2l/home/9787">HOME</a></div>
+<div class="col-xs-12 col-xs-4 col-sm-push-1"><a class="footer-links" href="/d2l/le/9787/discussions/List">DISCUSSIONS</a></div>
+<div class="col-xs-12 col-xs-4 col-sm-push-1"><a class="footer-links" href="/d2l/lms/quizzing/quizzing.d2l?ou=9787">QUIZZES</a></div>
+</div>
+<div class="row footer-rows">
+<div class="col-xs-12 col-xs-3 "><a class="footer-links" href="/d2l/le/content/9787/Home">CONTENT</a></div>
+<div class="col-xs-12 col-xs-4 col-sm-push-1"><a class="footer-links" href="/d2l/lms/dropbox/dropbox.d2l?ou=9787">DROPBOX</a></div>
+<div class="col-xs-12 col-xs-4 col-sm-push-1"><a class="footer-links" href="/d2l/lms/grades/index.d2l?ou=9787">GRADES</a></div>
+</div>
+<div class="row footer-rows" style="margin-bottom: 10px;">
+<div class="col-xs-12 col-xs-3 "><a class="footer-links" href="/d2l/lp/cmc/main.d2l?ou=9787">EMAIL</a></div>
+</div>
+</div>
+</footer></div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+<script>// <![CDATA[
+var currentUrl = window.location.href;
+        var myUrl = "https://ldsbc.brightspace.com/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/Unit%201.html?ou=7373";
+        var otherUrl = "https://ldsbc.brightspace.com/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/Unit%201.html";
+
+        if (myUrl === currentUrl) {
+            document.getElementById("left").setAttribute("href", "https://ldsbc.brightspace.com/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/Welcome%20to%20English%20220.html?ou=7373");
+            document.getElementById("right").setAttribute("href", "https://ldsbc.brightspace.com/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/Unit%202.html?ou=7373");
+        } else if (otherUrl === currentUrl) {
+            document.getElementById("left").setAttribute("href", "https://ldsbc.brightspace.com/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/Welcome%20to%20English%20220.html?ou=7373");
+            document.getElementById("right").setAttribute("href", "https://ldsbc.brightspace.com/content/enforced/7373-ENG220BusinessandProfessionalCommunications(/Unit%202.html?ou=7373");
+        }
+// ]]></script>
+</body>
+
+</html>
