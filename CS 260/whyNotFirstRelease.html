@@ -22,7 +22,22 @@
 
 
     <!-- Custom CSS -->
-  
+  <style type="text/css">
+   @media(min-width: 300px){
+    .navbar {
+    min-height: 34px;
+    }
+   }
+  /*@media(min-width: 350px){
+    
+    .container-bar{
+        height: 36px;
+        padding-left:  23px;
+        padding-right: 23px;
+    }
+    } */
+
+  </style>
 
 
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300,700,400' rel='stylesheet' type='text/css'>
@@ -53,14 +68,16 @@
     <div id="wrap">
         <!-- Fixed navbar -->
         <nav class="navbar navbar-default navbar-fixed-top" >
-            <div class="container-bar" style="height: 100%; margin-right: auto;">
+            <div class="container-bar" style="height: 36px; ">
                 <!-- <div class="navbar-header" style="height: 25px;"> -->
                    
                     <a class="navbar-brand" href="/d2l/common/dialogs/quickLink/quickLink.d2l?ou=7373&amp;type=content&amp;rcode=LDSBC-3922" > <span class="glyphicon glyphicon-home"></span> </a>
-                    <div id="title" ></div>
-                <div  class=" lettergrade">
-                    <p >A-</p>
-                </div>
+                    <div id="title" ><p>Online Course</p></div>
+                        <div class="btn-group" role="group" aria-label="...">
+                              <button class="btn btn-primary bs-docs-popover grade" type="button" data-toggle="popover" data-placement="bottom"  data-content="Your current grade is: A"></button>
+                             
+                              <button type="button" data-container="body" data-toggle="popover" data-placement="bottom" data-content="You are on week 2" class="btn btn-default week" ></button>
+                            </div> 
                 <!-- </div> -->
                 <!-- Grade and week block --> 
                 
@@ -74,5 +91,17 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </div>
 </body>
+<script type="text/javascript">
+$('[data-toggle="popover"]').popover();
 
+$('body').on('click', function (e) {
+    $('[data-toggle="popover"]').each(function () {
+        //the 'is' for buttons that trigger popups
+        //the 'has' for icons within a button that triggers a popup
+        if (!$(this).is(e.target) && $(this).has(e.target).length === 0 && $('.popover').has(e.target).length === 0) {
+            $(this).popover('hide');
+        }
+    });
+});
+</script>
 </html>
